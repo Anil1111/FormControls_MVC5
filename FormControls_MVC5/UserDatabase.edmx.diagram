@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f17b123206714ff884ca756731cd5642" Name="Diagram1">
+        <EntityTypeShape EntityType="FormsDbModel.Country" Width="1.5" PointX="8.625" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FormsDbModel.Course" Width="1.5" PointX="0.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FormsDbModel.User" Width="1.5" PointX="4.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FormsDbModel.UserCountry" Width="1.5" PointX="6.5" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FormsDbModel.UserCourse" Width="1.5" PointX="2.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FormsDbModel.UserDescription" Width="1.5" PointX="4.5" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="FormsDbModel.FK_dbo_UserCountry_dbo_Country_CountryID" ManuallyRouted="false" />
+        <AssociationConnector Association="FormsDbModel.FK_dbo_UserCourse_dbo_Course_CourseID" ManuallyRouted="false" />
+        <AssociationConnector Association="FormsDbModel.FK_dbo_UserCountry_dbo_User_UserID" ManuallyRouted="false" />
+        <AssociationConnector Association="FormsDbModel.FK_dbo_UserCourse_dbo_User_UserID" ManuallyRouted="false" />
+        <AssociationConnector Association="FormsDbModel.FK_dbo_UserDescription_dbo_User_UserID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
