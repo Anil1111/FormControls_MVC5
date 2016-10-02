@@ -43,7 +43,6 @@ namespace FormControls_MVC5.Models
 
         public IList<UserCourse> UserCourses { get; set; }
     }
-
     public class UserCourse
     {
         [Key]
@@ -57,7 +56,6 @@ namespace FormControls_MVC5.Models
         public Course Course { get; set; }
         public User User { get; set; }
     }
-
     public class UserDescription
     {
         [Key, ForeignKey("User")]
@@ -66,8 +64,6 @@ namespace FormControls_MVC5.Models
 
         public User User { get; set; }
     }
-
-
     public class FormControlsViewModel
     {
         public string UserID { get; set; }
